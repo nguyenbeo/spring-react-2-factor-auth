@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
-import ReactDOM from 'react-dom';
 import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
@@ -72,7 +71,7 @@ class App extends Component {
         Username: hello@mikka.se <br/>
         Password: asdfgh <br/>
         QR Code (Scan this with Google Authenticator app): <br/>
-        <img src="https://chart.googleapis.com/chart?chs=200x200&chld=M%%7C0&cht=qr&chl=otpauth%3A%2F%2Ftotp%2FMiKKaDemoApplication%3Anguyenbeo%3Fsecret%3DAHLOJ6UVMPRFTLJW%26issuer%3DMiKKaDemoApplication"/>
+        <img alt="Google Authenticator QR Code" src="https://chart.googleapis.com/chart?chs=200x200&chld=M%%7C0&cht=qr&chl=otpauth%3A%2F%2Ftotp%2FMiKKaDemoApplication%3Anguyenbeo%3Fsecret%3DAHLOJ6UVMPRFTLJW%26issuer%3DMiKKaDemoApplication"/>
         </p>
         <hr />
         <h1 className="App-title">Login</h1>
